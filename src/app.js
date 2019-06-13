@@ -44,7 +44,7 @@ class App extends React.Component {
       })
   }
   OnFormSubmit = (event) =>{
-    //event.preventDefault();
+
     var title = this.state.movieTitle;
     var error = this.validateTitleInserted(title);
     this.setState({ error });
