@@ -1,0 +1,10 @@
+.currentTable{
+    border-color: white;
+    font-family: 'Courier New', Courier, monospace
+}
+.currentTable th,.currentTable td{
+    color:white;
+}
+span{
+    color:white;
+}

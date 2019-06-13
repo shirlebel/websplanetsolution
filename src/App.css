@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+
+body {
+  background-image: url("./homeBackground.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed; /*background will not be scrolled with page scroll*/
+  background-size: 100% 100%; /*all image will be shown and streched*/
+}
+
+h1{
+  text-align: center;
+  margin-top: 80px;
+  font-size: 120px;
+  color: RGB(245, 250, 252);
+  text-shadow: 5px 5px 15px black;
+  font-family: 'Kaushan Script', cursive;
+}
+
+h6{
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: italic;
+  color: RGB(245, 250, 256);
+  letter-spacing: 1px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /*making outline*/
+}
+
+.fieldFill {
+  width: 350px;
+  height: 50px;
+  border-radius: 4px;
+  position: relative;
+  background-color:#cedeea;
+  margin: auto 7px;
+}
+
+.form{
+  text-align: center;
+}
+
+#titleRequired{
+  color: red;
+  font-weight: bold;
+  font-size: 12px;
+  /* display: none; */
+  margin-top: 5px;
+}
+
+#resetBtn{
+  margin: auto 7px;
+}
+
+#submitBtn{
+  margin: auto 7px;
+}
+
